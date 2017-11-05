@@ -1,0 +1,54 @@
+@prefix : 	 <http://www.wsldfiupm.org/handson/group02/vocabulary#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml2: <https://www.w3.org/TR/xmlschema-2/#>.
+
+<http://www.wsldfiupm.org/handson/group12/vocabulary> rdf:type owl:Ontology .
+
+
+#######################
+#    Object Properties
+#######################
+
+http://www.wsldfiupm.org/handson/group12/vocabulary#identificadorViajeBus
+
+:identificadorViajeBus 	rdf:type owl:identifier ;
+						rdfs:domain :Identificador;
+						rdfs:range xsd:string.
+
+http://www.wsldfiupm.org/handson/group12/vocabulary#horaSalida
+
+:horaSalida rdf:type owl:arrivalTime;
+			rdfs:domain :Tiempo;
+			rdfs:range xml2:Time.
+
+http://www.wsldfiupm.org/handson/group12/vocabulary#horaLlegada
+
+:horaLLegada:	rdf:type owl:departureTime;
+				rdfs:domain :Tiempo;
+				rdfs:range xml2:Time.
+
+http://www.wsldfiupm.org/handson/group12/vocabulary#IdParada
+
+:idParada: 	rdf:type owl:BusStop;
+			rdfs:domain :Identificador;
+			rdfs:range xml2:ID.
+
+http://www.wsldfiupm.org/handson/group12/vocabulary#secuenciaParada
+
+:secuenciaParada: 	rdf:type owl:position;
+					rdfs:domain :Orden;
+					rdfs:range xsd:nonNegativeInteger.
+
+Identificador: rdf:type owl:Class;
+Tiempo: rdf:type owl:Class;
+Orden: rdf:type owl:Class.
+
+#    Classes
+
+#  http://www.wsldfiupm.org/handson/group12/vocabulary#horarios-de-autobus
+
+:horarios-de-autobus rdf:type owl:Class .
