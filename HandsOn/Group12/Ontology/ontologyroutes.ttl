@@ -1,0 +1,56 @@
+@prefix : <http://www.semanticweb.com/grupo12/ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://www.semanticweb.com/grupo12/ontology#> a owl:Ontology
+
+######################################
+# Object Properties
+####################################
+#
+#
+#http://www.semanticweb.com/grupo12/ontology/hayParada
+
+:hayParada a owl:ObjectProperty ;
+	rdfs:domain <http://www.semanticweb.com/grupo12/ontology/Route>
+	rdfs:range <http://www.semanticweb.com/grupo12/ontology/Bus_Stop>
+	
+	
+#http://www.semanticweb.com/grupo12/ontology/hayRuta
+
+:hayRuta a owl:ObjectProperty ;
+	rdfs: domain <http://www.semanticweb.com/grupo12/ontology/Place>
+	rdfs: range <http://www.semanticweb.com/grupo12/ontology/Route>
+	
+	
+##########################################
+# Data Properties
+##########################################
+
+:route_id a owl:DataProperty;
+	rdfs:domain<http://www.semanticweb.com/grupo12/ontology/Route>
+	rdfs:range xsd:string
+	
+	
+:short_name a owl:DataProperty;
+	rdfs:domain<http://www.semanticweb.com/grupo12/ontology/Route>
+	rdfs:range xds:string
+	
+	
+:long_name a owl:DataProperty;
+	rdfs:domain<http://www.semanticweb.com/grupo12/ontology/Route>
+	rdfs:range xsd:string
+	
+	
+	
+#################################################################
+# Classes
+#################################################################
+
+<http://www.semanticweb.com/grupo12/ontology/Route> a owl:Class .
+
+<http://www.semanticweb.com/grupo12/ontology/Bus_Stop> a owl:Class .
