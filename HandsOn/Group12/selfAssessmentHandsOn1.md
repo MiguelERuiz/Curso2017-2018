@@ -4,6 +4,26 @@
 
 **The “README.md” file:**
 
+<<<<<<< HEAD
+- [ ] Includes the names and GitHub users of all the members of the group
+
+**The "csv" directory:**
+
+- [ ] Contains at least one CSV file 
+
+**The "datasetRequirements.html" file:**
+
+- [ ] Identifies the licenses of all the selected datasets
+- [ ] Identifies those entities in the selected datasets that can be linked with entities in other datasets
+- [ ] Identifies those entities in other datasets that can be linked with entities in the selected datasets 
+
+**The "applicationRequirements.html” file:**
+
+- [ ] Includes a description of the application user interface
+
+##Comments on the self-assessment##
+_(If required)_
+=======
 - [x] Includes the names and GitHub users of all the members of the group
 
 **The "csv" directory:**
@@ -41,3 +61,4 @@ en el directorio _csv_.
 
 * Irene Sánchez-Arévalo León (irenesleon): Ha contribuido en el fichero *routesautobus.csv* en el directorio _csv_.
 
+>>>>>>> 850d58cdde8b61ac31c2ad0b23236b7668079030
