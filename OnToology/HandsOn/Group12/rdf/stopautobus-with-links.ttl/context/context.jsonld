@@ -1,0 +1,25 @@
+{
+  "@context" : {
+    "stopName" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#stopName"
+    },
+    "long" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#long"
+    },
+    "parentStation" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#parentStation"
+    },
+    "lat" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+    },
+    "stopAddress" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#stopAddress"
+    },
+    "Community_of_Madrid" : {
+      "@id" : "http://dbpedia.org/page/Community_of_Madrid"
+    },
+    "stopZone" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#stopZone"
+    }
+  }
+}
