@@ -1,0 +1,825 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontology="http://www.semanticweb.org/group12/ontology#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#dateFrom -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#dateFrom"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#dateTo -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#dateTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceFriday -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceFriday"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceMonday -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceMonday"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceSaturday -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceSaturday"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceSunday -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceSunday"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceThursday -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceThursday"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceTuesday -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceTuesday"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#hasServiceWednesday -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#hasServiceWednesday"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/page/Calendar -->
+
+
+    <Class rdf:about="http://dbpedia.org/page/Calendar"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/10491006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/10491006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Fri Jun 22 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/10591006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/10591006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Fri Jun 22 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/108171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/108171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/10992006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/10992006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/11092006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/11092006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/1118828 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/1118828">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/11192006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/11192006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/11292006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/11292006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/1168828 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/1168828">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/118171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/118171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/1218828 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/1218828">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/1238828 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/1238828">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/1248828 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/1248828">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/12492006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/12492006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/12592006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/12592006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/128171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/128171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/138171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/138171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/148171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/148171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/158171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/158171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Fri May 26 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/18171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/18171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/28171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/28171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/38171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/38171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/48171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/48171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/58171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/58171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/68171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/68171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/70192006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/70192006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/70491006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/70491006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Fri Jun 22 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/70591006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/70591006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Fri Jun 22 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/70992006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/70992006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/71192006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/71192006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/71292006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/71292006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/71692006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/71692006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/7693006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/7693006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sun May 28 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Mon Jun 18 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/7793006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/7793006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sun May 28 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Mon Jun 18 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/78171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/78171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/80491006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/80491006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Fri Jun 22 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/80591006 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/80591006">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Fri Jun 22 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/88171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/88171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Calendar/98171 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Calendar/98171">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Calendar"/>
+        <ontology:dateFrom rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Wed May 24 00:00:00 CEST 2017</ontology:dateFrom>
+        <ontology:dateTo rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Sat Jun 23 00:00:00 CEST 2018</ontology:dateTo>
+        <ontology:hasServiceFriday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceFriday>
+        <ontology:hasServiceMonday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceMonday>
+        <ontology:hasServiceSaturday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSaturday>
+        <ontology:hasServiceSunday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ontology:hasServiceSunday>
+        <ontology:hasServiceThursday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceThursday>
+        <ontology:hasServiceTuesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceTuesday>
+        <ontology:hasServiceWednesday rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ontology:hasServiceWednesday>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

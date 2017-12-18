@@ -1,0 +1,79 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/group12/ontology#journey
+<http://www.semanticweb.org/group12/ontology#journey> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#routeLine
+<http://www.semanticweb.org/group12/ontology#routeLine> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#routeURL
+<http://www.semanticweb.org/group12/ontology#routeURL> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/page/Route
+<http://dbpedia.org/page/Route> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/group12/resources/Route/8171
+<http://www.semanticweb.org/group12/resources/Route/8171> rdf:type owl:NamedIndividual ,
+                                                                   <http://dbpedia.org/page/Route> ;
+                                                          <http://www.semanticweb.org/group12/ontology#journey> "MADRID (Plaza de Castilla)-URB. SANTO DOMINGO"^^xsd:string ;
+                                                          <http://www.semanticweb.org/group12/ontology#routeLine> "171"^^xsd:string ;
+                                                          <http://www.semanticweb.org/group12/ontology#routeURL> "http://www.crtm.es/tu-transporte-publico/autobuses-interurbanos/lineas/8__171___.aspx"^^xsd:string .
+
+
+###  http://www.semanticweb.org/group12/resources/Route/8828
+<http://www.semanticweb.org/group12/resources/Route/8828> rdf:type owl:NamedIndividual ,
+                                                                   <http://dbpedia.org/page/Route> ;
+                                                          <http://www.semanticweb.org/group12/ontology#journey> "MADRID (Canillejas)-ALCOBENDAS-UNIVERSIDAD AUTÓNOMA"^^xsd:string ;
+                                                          <http://www.semanticweb.org/group12/ontology#routeLine> "828"^^xsd:string ;
+                                                          <http://www.semanticweb.org/group12/ontology#routeURL> "http://www.crtm.es/tu-transporte-publico/autobuses-interurbanos/lineas/8__828___.aspx"^^xsd:string .
+
+
+###  http://www.semanticweb.org/group12/resources/Route/91006
+<http://www.semanticweb.org/group12/resources/Route/91006> rdf:type owl:NamedIndividual ,
+                                                                    <http://dbpedia.org/page/Route> ;
+                                                           <http://www.semanticweb.org/group12/ontology#journey> "ARROYO DE LA VEGA-EL SOTO-LA MORALEJA"^^xsd:string ;
+                                                           <http://www.semanticweb.org/group12/ontology#routeLine> "1"^^xsd:string ;
+                                                           <http://www.semanticweb.org/group12/ontology#routeURL> "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__1__006_.aspx"^^xsd:string .
+
+
+###  http://www.semanticweb.org/group12/resources/Route/92006
+<http://www.semanticweb.org/group12/resources/Route/92006> rdf:type owl:NamedIndividual ,
+                                                                    <http://dbpedia.org/page/Route> ;
+                                                           <http://www.semanticweb.org/group12/ontology#journey> "ALCOBENDAS-LA MORALEJA"^^xsd:string ;
+                                                           <http://www.semanticweb.org/group12/ontology#routeLine> "2"^^xsd:string ;
+                                                           <http://www.semanticweb.org/group12/ontology#routeURL> "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__2__006_.aspx"^^xsd:string .
+
+
+###  http://www.semanticweb.org/group12/resources/Route/93006
+<http://www.semanticweb.org/group12/resources/Route/93006> rdf:type owl:NamedIndividual ,
+                                                                    <http://dbpedia.org/page/Route> ;
+                                                           <http://www.semanticweb.org/group12/ontology#journey> "ARROYO DE LA VEGA-SOTO DE LA MORALEJA-EL ENCINAR DE LOS REYES"^^xsd:string ;
+                                                           <http://www.semanticweb.org/group12/ontology#routeLine> "3"^^xsd:string ;
+                                                           <http://www.semanticweb.org/group12/ontology#routeURL> "http://www.crtm.es/tu-transporte-publico/otros-autobuses-urbanos/lineas/9__3__006_.aspx"^^xsd:string .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

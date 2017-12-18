@@ -1,0 +1,34 @@
+{
+  "@context" : {
+    "hasServiceWednesday" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasServiceWednesday"
+    },
+    "hasServiceThursday" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasServiceThursday"
+    },
+    "hasServiceMonday" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasServiceMonday"
+    },
+    "hasServiceTuesday" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasServiceTuesday"
+    },
+    "hasServiceFriday" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasServiceFriday"
+    },
+    "hasServiceSaturday" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasServiceSaturday"
+    },
+    "dateFrom" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#dateFrom"
+    },
+    "dateTo" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#dateTo"
+    },
+    "Calendar" : {
+      "@id" : "http://dbpedia.org/page/Calendar"
+    },
+    "hasServiceSunday" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasServiceSunday"
+    }
+  }
+}
