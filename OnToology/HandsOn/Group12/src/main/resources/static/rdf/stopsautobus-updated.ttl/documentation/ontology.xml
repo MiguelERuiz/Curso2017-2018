@@ -1,0 +1,3060 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ontology="http://www.semanticweb.org/group12/ontology#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#parentStation -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#parentStation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopAddress -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopAddress"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopName -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/ontology#stopZone -->
+
+
+    <AnnotationProperty rdf:about="http://www.semanticweb.org/group12/ontology#stopZone"/>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/page/Bus_stop -->
+
+
+    <Class rdf:about="http://dbpedia.org/page/Bus_stop"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06686 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06686">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Burgos 133</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS-C.C.SANCHINARRO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.498046875</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66299557685852</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06687 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06687">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Burgos 11300</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS-DOMINICOS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5014419555664</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65994882583618</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06689 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06689">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra de Irún 13700</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-CUESTA BLANCA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5217704772949</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65101075172424</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06691 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06691">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda   Olímpica 9</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.OLÍMPICA-C.C.LA VEGA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5352478027344</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63698363304138</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06692 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06692">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda   Olímpica 3 A</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.OLÍMPICA-PABELLÓN DEPORTIVO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5364875793457</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63275647163391</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06694 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06694">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 20300</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.ANTIGUA DE BURGOS-LA GRANJILLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5691719055176</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6023485660553</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06695 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06695">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 21900</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.ANTIGUA DE BURGOS-CARAVANAS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5761680603027</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.59238028526306</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06697 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06697">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 23400</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-URB.FUENTE EL FRESNO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5890731811523</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58275675773621</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06698 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06698">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 24200</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-EL ALEMÁN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5971450805664</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58106589317322</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06700 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06700">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 26000</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-CIRCUITO DEL JARAMA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6117782592773</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58051896095276</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06709 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06709">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Guadalix 35 A</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.GUADALIX-CENTRO COMERCIAL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6288299560547</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58259391784668</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06710 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06710">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Guadalix 31</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.GUADALIX-AV.MONTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6264305114746</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58094143867493</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06711 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06711">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Monte 28</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MONTE-CORTA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6289138793945</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.57494425773621</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06712 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06712">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Monte 62</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MONTE-ALTA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6333694458008</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.57378816604614</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06713 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06713">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Monte 90</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MONTE-CERRO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.637523651123</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.57687497138977</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06714 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06714">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Monte 108</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MONTE-AV.GUADALIX</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6408195495605</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.57525944709778</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06715 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06715">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Guadalix 108</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.GUADALIX Nº108</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6398391723633</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.5789053440094</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06716 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06716">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Guadalix 88</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.GUADALIX-NORTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6377296447754</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58294320106506</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06717 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06717">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Guadalix 62</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.GUADALIX-CENTRO DEPORTIVO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6323127746582</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58463430404663</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06718 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06718">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Guadalix 50</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.GUADALIX-CENTRO DE SALUD</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6294136047363</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58301281929016</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06719 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06719">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   A-1 27.9</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-URB.CIUDALCAMPO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6262359619141</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58786845207214</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06720 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06720">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I Burgos S/N</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-CIRCUITO DEL JARAMA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6107482910156</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58099460601807</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06722 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06722">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 24300</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-EL ALEMÁN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5976371765137</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58181476593018</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06723 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06723">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 23400</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-URB.FUENTE EL FRESNO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5893402099609</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58359813690186</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06749 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06749">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra  N-I Burgos S/N</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.ANTIGUA DE BURGOS-GRANJA ESCUELA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5763740539551</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.59272480010986</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06750 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06750">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 20400</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.ANTIGUA DE BURGOS-LA GRANJILLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5697021484375</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60222339630127</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06755 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06755">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Marquesa Viuda de Aldama 14</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUESA VIUDA DE ALDAMA-NªSRA.DEL PILAR</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5413055419922</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63294339179993</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06756 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06756">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 20</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-RAMÓN FDEZ.GUISASOLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5408248901367</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6367175579071</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06758 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06758">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 50</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-NEMESIO CASTRO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5429191589355</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63905215263367</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06759 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06759">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 88</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-AV.ESPAÑA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5447883605957</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64296698570251</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06762 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06762">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de España SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ESPAÑA-AYUNTAMIENTO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5472755432129</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6412193775177</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06763 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06763">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de España 34</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ESPAÑA-AYUNTAMIENTO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5471458435059</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64066290855408</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06768 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06768">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Libertad 26</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LIBERTAD-JULIÁN BAENA CASTRO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5397071838379</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63648271560669</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06769 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06769">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Sierra 37</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.SIERRA-C.C.LA VIÑA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5481033325195</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63325548171997</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06770 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06770">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de España 14</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ESPAÑA-CONSTITUCIÓN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5449676513672</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64309859275818</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06771 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06771">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 110</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-MANUEL DE FALLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5463714599609</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64989066123962</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06772 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06772">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 91</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-AV.DOCTOR SEVERO OCHOA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5461845397949</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64981818199158</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06780 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06780">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Marquesa Viuda de Aldama SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUESA VIUDA DE ALDAMA-TRVA.DELCAÑÓN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5422782897949</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63099241256714</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06786 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06786">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Real 25</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REAL-AYUNTAMIENTO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5465660095215</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62637948989868</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06788 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06788">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Colmenar Viejo 5</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.COLMENAR VIEJO-RAMÓN ESTEBAN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5452117919922</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62874054908752</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06790 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06790">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Real 3</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REAL-SACRAMENTO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5445709228516</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62856936454773</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06792 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06792">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Colmenar Viejo 27</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.COLMENAR VIEJO-NTRA.SRA.CARMEN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5472412109375</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63149952888489</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06808 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06808">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 203</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA Nº65</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5208168029785</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64945507049561</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06809 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06809">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Jazmín 8</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAZMÍN-IRIS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5241394042969</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64513063430786</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06810 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06810">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Begonia 258</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAZMÍN-BEGONIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5229377746582</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64226222038269</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06811 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06811">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Begonia 277</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEGONIA-CEMENTERIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5248832702637</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63930583000183</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06812 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06812">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 532</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA-BEGONIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5277404785156</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.637526512146</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06813 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06813">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Dalia 385</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DALIA-AZALEA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5247993469238</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63492488861084</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06814 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06814">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Dalia 62</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DALIA-LAUREL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5236625671387</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63860940933228</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06815 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06815">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Dalia 255</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DALIA-JAZMÍN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5213623046875</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64199924468994</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06817 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06817">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 1</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA-PZA.DEL SOTO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5185966491699</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65040159225464</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06818 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06818">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 227</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA-ZARZAMORA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5224151611328</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64849066734314</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06819 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06819">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 84</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA-CALÉNDULA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5238914489746</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64728879928589</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06821 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06821">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 604</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA-DALIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5254287719727</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63481283187866</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06823 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06823">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Alcobendas 3</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºALCOBENDAS-SALVIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.525089263916</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63094902038574</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06825 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06825">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Alcobendas 9</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºALCOBENDAS-CºANCHO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5272407531738</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62671899795532</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06827 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06827">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Alcobendas 10</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºALCOBENDAS-C.C.BULEVAR</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5280609130859</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62173247337341</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06829 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06829">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Alcobendas 12</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºALCOBENDAS-VEREDA DE LAS PEÑAS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5274696350098</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61757111549377</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06831 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06831">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Alcobendas 14</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºALCOBENDAS-URB.LEVIT PARK</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.527271270752</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61228013038635</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06832 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06832">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Viejo 88</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO VIEJO-PºCONDE DE LOS GAITANES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5248489379883</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60856294631958</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06838 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06838">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra de Barajas 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BARAJAS-PARQUE BOMBEROS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5351638793945</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6209716796875</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06839 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06839">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Camino Nuevo 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO NUEVO-PZA.SOTO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5179023742676</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64868330955505</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06840 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06840">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Barajas 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BARAJAS-ARROYO DE LA VEGA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5370407104492</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62340950965881</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06841 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06841">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Barajas 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BARAJAS-URB.FUENTE HITO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5364570617676</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62348675727844</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06862 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06862">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Dalia 23</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DALIA-KERRIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5192794799805</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64602851867676</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06863 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06863">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra  A-1 (VÍA DE SERVICIO) 14.200</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-CUESTA BLANCA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5223350524902</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65168905258179</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06864 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06864">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra de Irún  13.000</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-EL ENCINAR DE LOS REYES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5145568847656</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65547370910645</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06865 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06865">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Santo Domingo de la Calzada 1</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS-DOMINICOS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5019798278809</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66061496734619</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/06885 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/06885">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de la Chopera 108</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºCHOPERA-CENTRO SALUD VALDAVIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5446510314941</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64672112464905</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07236 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07236">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de España 72</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ESPAÑA-M.SEBASTIÁN IZUEL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5409965515137</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62847685813904</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07324 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07324">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Logroño 6 A</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LOGROÑO-PºALAMEDA DE OSUNA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4509735107422</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60770726203918</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07364 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07364">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 94</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-RUPERTO CHAPÍ</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5461883544922</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64602732658386</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07365 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07365">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 83</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-JACINTO BENAVENTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5460166931152</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64615535736084</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07369 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07369">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra de Barajas 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA-M12-LA MORALEJA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5252838134766</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.59975957870483</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07370 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07370">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra de Barajas 9000</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.BARAJAS-BUTANO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5288963317871</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60634446144104</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07373 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07373">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 123</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-CAMILO JOSÉ CELA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5471267700195</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65675950050354</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07374 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07374">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra del Goloso 4600</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.M616-COLEGIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5531806945801</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.67543268203735</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07375 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07375">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra del Goloso 4600</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.M616-COLEGIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5527572631836</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.67541646957397</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07376 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07376">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   M-616 (Alcobendas) 5300</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.M616-UNIVERSIDAD COMILLAS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5531044006348</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.68221139907837</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07396 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07396">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Logroño 29</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LOGROÑO-PºALAMEDA DE OSUNA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.451114654541</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60802698135376</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/07528 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/07528">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Manuel de Falla 42</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MANUEL DE FALLA-PARQUE EXTREMADURA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5519180297852</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64441704750061</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/08357 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/08357">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Manuel de Falla 5</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MANUEL DE FALLA-CENTRO DE MAYORES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5485305786133</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64936828613281</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/08419 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/08419">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   M-616 (Alcobendas) 5400</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.M616-UNIVERSIDAD COMILLAS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5522384643555</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.68385601043701</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/08695 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/08695">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de la Chopera 107</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºCHOPERA-EDUCACIÓN INFANTIL ESPECIAL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5449485778809</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65032577514648</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09128 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09128">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Iván Pavlov 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IVÁN PAVLOV-RECTORADO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5437889099121</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69464635848999</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09421 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09421">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Camino Nuevo 49</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO NUEVO-CUESTA DEL CERRO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5214080810547</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63880062103271</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09422 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09422">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 755</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA-PºDE ALCOBENDAS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5251884460449</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63444471359253</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09423 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09423">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo del Conde de los Gaitanes 21</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºCONDE DE LOS GAITANES-IGLESIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5168609619141</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63992595672607</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09425 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09425">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de la Marquesa Viuda de Aldama 15</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºMARQUESA VIUDA ALDAMA-VEREDILLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5173645019531</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63054609298706</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09428 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09428">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Sur 66</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO SUR-PºMARQUESA VIUDA ALDAMA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5161361694336</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6241250038147</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09430 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09430">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Sur 28</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO SUR-CºDE LA FUENTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5128211975098</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6327817440033</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09431 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09431">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Camino de la Huerta 1</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO DE LA HUERTA-CºALTO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5103454589844</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63392686843872</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09433 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09433">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Camino de la Huerta 13</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO HUERTA-VEREDA LOS CHOPOS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5108642578125</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62975335121155</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09435 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09435">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Camino de la Huerta 61</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO HUERTA-VEREDA LOS ÁLAMOS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.512767791748</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6224057674408</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09437 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09437">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Camino de la Huerta 82</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO HUERTA-CºANCHO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5136528015137</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62001776695251</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09439 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09439">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Viejo 64</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO VIEJO-CºANCHO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5126495361328</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61562919616699</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09441 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09441">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Viejo 84</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO VIEJO-INTERGOLF</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5186004638672</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60986399650574</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09443 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09443">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Viejo 76</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO VIEJO-CºLIEBRES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5152359008789</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61226511001587</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/09445 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/09445">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Azalea 532</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AZALEA-BEGONIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5276412963867</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63754916191101</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/10019 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/10019">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo   Europa 7</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºEUROPA-GTA.ANTONIO GAUDÍ</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5562934875488</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61487126350403</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/10607 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/10607">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 90</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-AV.ESPAÑA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5451889038086</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64388012886047</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/10614 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/10614">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de España 52</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ESPAÑA-EST.ALCOBENDAS S.SEB.REYES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.546688079834</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63500165939331</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11232 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11232">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de la Chopera 178</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºCHOPERA-AV.CAMILO JOSÉ CELA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5451965332031</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6568706035614</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11277 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11277">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Begonia 279</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BEGONIA-AZALEA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5275573730469</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63793802261353</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11330 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11330">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 159</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA Nº147</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5480079650879</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66038203239441</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11331 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11331">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Ermita 5</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LA VEGA-C.C.LA VEGA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5336952209473</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63578820228577</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11333 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11333">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Vega 2</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LA VEGA-AV.BARAJAS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5367088317871</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62485885620117</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11335 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11335">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Nardo SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NARDO-COMPLEJO DEPORTIVO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5294075012207</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6371054649353</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11336 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11336">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Nardo 12</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NARDO-GARDENIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5293922424316</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63698720932007</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11402 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11402">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo   Europa 7</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºEUROPA-GTA.ANTONIO GAUDÍ</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5563850402832</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61443519592285</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11792 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11792">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Vega 8</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LA VEGA-ANABEL SEGURA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5358734130859</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62779140472412</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11793 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11793">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Vega 7</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LA VEGA-ANABEL SEGURA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5356292724609</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62767100334167</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11794 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11794">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Vega 12</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LA VEGA-FRANCISCA DELGADO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5351181030273</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63054728507996</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11795 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11795">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Vega 13</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LA VEGA-FRANCISCA DELGADO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5347862243652</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63057947158813</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11843 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11843">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Consejo de Europa 2</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.CONSEJO EUROPA-CAMPO NACIONES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4587707519531</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61665868759155</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11844 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11844">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de los Andes 52</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ANDES-C.C.CAMPO NACIONES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4576416015625</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61732053756714</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/11983 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/11983">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Real 93</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REAL-CENTRO DE SALUD</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5501976013184</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62264585494995</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12032 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12032">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Manuel de Falla 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MANUEL DE FALLA-CALDERÓN DE LA BARCA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5468215942383</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65033197402954</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12033 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12033">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Vega 24</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.LA VEGA-AV.LA ERMITA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5340423583984</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63501214981079</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12217 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12217">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda  Matapiñonera 24</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MATAPIÑONERA-AV.CERRO DEL ÁGUILA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5457305908203</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61737275123596</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12218 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12218">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda   Matapiñonera 6</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MATAPIÑONERA-AV.CAMINO DE LO CORTAO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5483512878418</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61938095092773</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12240 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12240">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Nardo SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NARDO-CENTRO CÍVICO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5311508178711</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63650798797607</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12241 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12241">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Nardo 44</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NARDO-CENTRO CÍVICO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5311317443848</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63638973236084</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/123 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/123">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Bambú 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAMBU-AV.PIO XII</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4739990234375</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.67745804786682</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12344 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12344">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 7</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºPARQUES-CºEL ENCINAR</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.512767791748</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6501681804657</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12345 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12345">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 19</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºPARQUES Nº17</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5112457275391</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64719080924988</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12347 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12347">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 25</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºLOS PARQUES-VEREDA DE PALACIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5095443725586</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64345645904541</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12351 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12351">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cmno de la Huerta 223</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CºHUERTA-DÁMASO ALONSO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5071411132813</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63796877861023</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12421 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12421">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Somosierra 14</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºEUROPA-AV.MONTES DE OCA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5532073974609</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61732339859009</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12422 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12422">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo   Europa 1</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºEUROPA-AV.MONTES DE OCA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.553352355957</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61756086349487</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12723 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12723">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 138</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-EST.VALDELASFUENTES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5469703674316</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65431332588196</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12724 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12724">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 105</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-EST.VALDELASFUENTES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5466423034668</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65350723266602</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12820 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12820">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda  Matapiñonera 24</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MATAPIÑONERA-PLAZA NORTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5431594848633</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61633372306824</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12841 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12841">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plaza de La Fuente SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PZA.LA FUENTE-URB.CIUDALCAMPO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B3</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.6267967224121</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58864188194275</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12924 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12924">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de España 56 A</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ESPAÑA-ÁVILA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.544734954834</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63181829452515</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/12925 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/12925">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de España 58</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ESPAÑA-CENTRO DE MAYORES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5435981750488</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62847757339478</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/13132 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/13132">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºPARQUES-CTRA.A1</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5134811401367</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65497922897339</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/13293 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/13293">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda   Pablo Iglesias 10</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.PABLO IGLESIAS-PALESTINA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5507926940918</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65665364265442</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/15313 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/15313">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Manuel de Falla 59</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MANUEL DE FALLA-EST.MANUEL DE FALLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5502624511719</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64691662788391</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/15392 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/15392">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda  Matapiñonera 24</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.MATAPIÑONERA-CºJUNCAL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.540699005127</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61807060241699</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16437 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16437">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 19900</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.ANTIGUA DE BURGOS-C.C.ALEGRA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5660285949707</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60559248924255</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16438 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16438">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   N-I ( Burgos) 19900</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.ANTIGUA DE BURGOS-C.C.ALEGRA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.566089630127</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6059238910675</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16646 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16646">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:parentStation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">est_90_33</ontology:parentStation>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Hispanidad 1 D</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.HISPANIDAD-AEROPUERTO T4</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4914817810059</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.59276795387268</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16919 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16919">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino del Soto 1</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CºDEL SOTO-PZA.MORALEJA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5162582397461</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65094566345215</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16921 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16921">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 5</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ESTAFETA-PºLOS PARQUES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5134773254395</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65220522880554</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16922 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16922">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra del Mediodía 34</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.MEDIODÍA-PUENTE DEL ENCINAR</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5110206604004</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65183925628662</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16923 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16923">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra del Mediodía 50</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.MEDIODÍA-URB.PUERTA ENCINAR II</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5105857849121</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64878964424133</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16924 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16924">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra del Mediodía 50</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.MEDIODÍA-VEREDA DEL PALACIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5081787109375</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64573311805725</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16925 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16925">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 30</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºLOS PARQUES-VEREDA DEL PALACIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5094566345215</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64277100563049</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16926 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16926">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 36</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºPARQUES-ENCINAR DE LOS REYES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5093116760254</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63810729980469</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16932 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16932">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Vereda Norte 2</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEREDA NORTE-PºCONDE LOS GAITANES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5160827636719</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64211416244507</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16933 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16933">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Camino Nuevo 18</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEREDA NORTE-CAMINO NUEVO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5189056396484</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64149188995361</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16936 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16936">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Jazmín 95</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JAZMÍN-KERRIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.520938873291</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64075565338135</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16938 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16938">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Camino Nuevo 229</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO NUEVO-GTA.LA PALMERA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5245475769043</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6344621181488</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16940 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16940">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino del Golf 22</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO DEL GOLF-CAMINO MESONCILLOS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5202789306641</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61626577377319</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16942 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16942">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino del Golf 42</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO DEL GOLF-PºCONDE LOS GAITANES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5242919921875</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61539340019226</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16944 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16944">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Ancho 84</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO ANCHO-HALCÓN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5258369445801</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62628102302551</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/16946 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/16946">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Alcobendas 3</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºALCOBENDAS-VEREDILLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5249519348145</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63162064552307</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17025 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17025">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo   Europa 11</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºEUROPA-HOSPITAL INFANTA SOFÍA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5602951049805</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61124610900879</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17457 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17457">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle   Vereda de Palacio 6</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VEREDA DE PALACIO-CºHUERTA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5081520080566</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64429306983948</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17459 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17459">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 38</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºPARQUES-CAMINO DEL ENCINAR</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5095634460449</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6353714466095</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17460 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17460">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cmno   del Cura 99</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CºDEL CURA-URB.OTERO DEL ENCINAR</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5083808898926</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63589143753052</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17474 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17474">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo   Europa 11</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºEUROPA-HOSPITAL INFANTA SOFÍA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5593185424805</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61180424690247</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17512 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17512">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Ermita 5</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ERMITA-EST.LA MORALEJA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5322647094727</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63550305366516</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17513 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17513">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Ermita 2</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.ERMITA-EST.LA MORALEJA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5319557189941</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.63606691360474</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17514 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17514">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Estafeta 1</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CºENCINAR-ESTAFETA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5147171020508</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65124940872192</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17516 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17516">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plaza de la Moraleja 1</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO DEL SOTO-PZA.LA MORALEJA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5154647827148</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65090250968933</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17518 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17518">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino Ancho 63</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO ANCHO-PºMARQUESA VIUDA ALDAMA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5177192687988</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61942958831787</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17519 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17519">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo del Conde de los Gaitanes 74</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºCONDE LOS GAITANES Nº65</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5246810913086</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62167763710022</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17520 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17520">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Alcobendas 9</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºALCOBENDAS-COLEGIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5269317626953</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62849879264832</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/17521 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/17521">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Camino del Golf 32</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMINO DEL GOLF-CAMINO DE MESONCILLOS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5221366882324</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61437010765076</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18061 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18061">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Fuente Lucha 7</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºFUENTE LUCHA-SUEÑOS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.550895690918</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.659512758255</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18066 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18066">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de Fuente Lucha 7</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºFUENTE LUCHA-FANTASÍA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5523414611816</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6602828502655</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18068 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18068">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda   Pablo Iglesias 6</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.PABLO IGLESIAS-DR.ÁNGEL OLIVARES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5494842529297</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65698337554932</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18074 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18074">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:parentStation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">est_90_21</ontology:parentStation>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de la Castellana 195 A</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INTERCAMBIADOR DE PLAZA CASTILLA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4675521850586</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.68892955780029</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18076 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18076">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda   Pablo Iglesias 2</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.PABLO IGLESIAS-JOSÉ HIERRO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5477828979492</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65678954124451</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18077 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18077">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 131</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-MÁQUINA DEL TREN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5474548339844</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65757775306702</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18078 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18078">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle del Marqués de la Valdavia 167</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARQUÉS VALDAVIA-HIPERMERCADO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5484199523926</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66075205802917</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18095 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18095">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Josefa Valcárcel 152</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CANILLEJAS-AREA INTERMODAL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4492340087891</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.60962557792664</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18174 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18174">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Felicidad SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FELICIDAD-HECHIZO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.550609588623</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66057300567627</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18175 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18175">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Felicidad SN</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FELICIDAD-COLEGIO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5503959655762</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66175174713135</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18176 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18176">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Magia 17</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FANTASÍA-AV.MAGIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5523452758789</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65782618522644</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18177 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18177">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de la Fantasía 3</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FANTASÍA-AV.MAGIA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5527610778809</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65783023834229</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18591 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18591">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cmno de la Huerta 143 C</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CºHUERTA-ENRIQUE LAFUENTE FERRARI</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5067520141602</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.64180088043213</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18634 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18634">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Marie Curie 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARIE CURIE-FCO.TOMÁS Y VALIENTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5459899902344</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69224810600281</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18635 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18635">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Marie Curie 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MARIE CURIE-FACULTAD INFORMÁTICA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5459098815918</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.692542552948</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18636 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18636">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Newton 13</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEWTON-FCO.TOMÁS Y VALIENTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5473022460938</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69028925895691</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18637 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18637">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Newton 13</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEWTON-FCO.TOMÁS Y VALIENTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5471725463867</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69074869155884</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18638 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18638">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Newton 13</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEWTON-NICOLÁS CABRERA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5494270324707</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69152760505676</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18639 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18639">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Newton 13</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NEWTON-NICOLÁS CABRERA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.54931640625</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69196343421936</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18789 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18789">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra   CTRA. A1 23800</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRA.A1-URB.FRESNO NORTE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B2</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5935401916504</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.58267760276794</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/18823 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/18823">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Barajas 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BARAJAS-HOTEL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.534496307373</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.62076473236084</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/19102 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/19102">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 2</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PºPARQUES-PARQUE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5133476257324</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65429329872131</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/19103 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/19103">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paseo de los Parques 4</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CºDEL ENCINAR-PºDEL PARQUE</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B1</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.5128974914551</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.65244770050049</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/1917 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/1917">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:parentStation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">est_90_25</ontology:parentStation>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle de Agustín de Foxá 40</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGUSTÍN DE FOXÁ-CHAMARTÍN</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4716714166663</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.68258411029222</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/3253 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/3253">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acces  Nudo Norte 29700</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pº CASTELLANA-HOSPITAL LA PAZ</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4806365966797</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.68515825271606</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/3261 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/3261">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Burgos 10300</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS-FCO.PI Y MARGALL</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4943466186523</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66751408576965</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/3265 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/3265">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Burgos 87</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS Nº 87-PASO ELEVADO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4900970458984</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.67299437522888</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/3266 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/3266">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Burgos 40</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS-AV.SAN LUIS</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4810905456543</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.67592477798462</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/3602 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/3602">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Burgos 10100</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS Nº 93</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4935073852539</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6703143119812</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/3819 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/3819">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Vía de Dublín 14</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIA DE DUBLIN-GTA. SINTRA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4709091186523</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61269998550415</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/3820 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/3820">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calle  Vía de Dublín 14</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VIA DE DUBLIN-GTA. SINTRA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4705772399902</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61288547515869</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/405 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/405">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Capital de España Madrid 2</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMPO NACIONES-GTA.JUAN DE BORBON</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.461254119873</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61544299125671</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/406 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/406">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de la Capital de España Madrid 3</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMPO NACIONES-GTA.JUAN DE BORBON</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4613876342773</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61597490310669</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/4915 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/4915">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Partenón 12</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARTENON-CAMPO NACIONES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4636154174805</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61568856239319</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/4916 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/4916">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Partenón 20</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARTENÓN-GTA.HAMBURGO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4638977050781</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61349725723267</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/4917 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/4917">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Partenón 11</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PARTENON-GTA.HAMBURGO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4641609191895</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61321640014648</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/50000 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/50000">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda de Burgos 135</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS-CENTRO FINANCIERO</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4987258911133</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.66366314888</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/5023 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/5023">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Consejo de Europa 3</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.CONSEJO DE EUROPA-RIBERA LOIRA</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4592475891113</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61679267883301</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/5061 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/5061">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ctra de Fuencarral a Hortaleza 8</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.BURGOS Nº 85</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4872817993164</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.67360329627991</wgs84_pos:long>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/group12/resources/Busstop/5827 -->
+
+
+    <NamedIndividual rdf:about="http://www.semanticweb.org/group12/resources/Busstop/5827">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Bus_stop"/>
+        <ontology:stopAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avda del Partenón 5</ontology:stopAddress>
+        <ontology:stopName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AV.PARTENÓN-CAMPO DE LAS NACIONES</ontology:stopName>
+        <ontology:stopZone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</ontology:stopZone>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4642181396484</wgs84_pos:lat>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.61600065231323</wgs84_pos:long>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,22 @@
+{
+  "@context" : {
+    "tripHeadsign" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#tripHeadsign"
+    },
+    "serviceID" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#serviceID"
+    },
+    "directionID" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#directionID"
+    },
+    "routeID" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#routeID"
+    },
+    "tripShortName" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#tripShortName"
+    },
+    "Service" : {
+      "@id" : "http://dbpedia.org/page/Service"
+    }
+  }
+}

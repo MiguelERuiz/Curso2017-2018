@@ -1,0 +1,16 @@
+{
+  "@context" : {
+    "journey" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#journey"
+    },
+    "routeLine" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#routeLine"
+    },
+    "routeURL" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#routeURL"
+    },
+    "Route" : {
+      "@id" : "http://dbpedia.org/page/Route"
+    }
+  }
+}

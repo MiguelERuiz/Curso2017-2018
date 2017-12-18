@@ -1,0 +1,609 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/group12/ontology#dateFrom
+<http://www.semanticweb.org/group12/ontology#dateFrom> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#dateTo
+<http://www.semanticweb.org/group12/ontology#dateTo> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceFriday
+<http://www.semanticweb.org/group12/ontology#hasServiceFriday> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceMonday
+<http://www.semanticweb.org/group12/ontology#hasServiceMonday> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceSaturday
+<http://www.semanticweb.org/group12/ontology#hasServiceSaturday> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceSunday
+<http://www.semanticweb.org/group12/ontology#hasServiceSunday> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceThursday
+<http://www.semanticweb.org/group12/ontology#hasServiceThursday> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceTuesday
+<http://www.semanticweb.org/group12/ontology#hasServiceTuesday> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/group12/ontology#hasServiceWednesday
+<http://www.semanticweb.org/group12/ontology#hasServiceWednesday> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/page/Calendar
+<http://dbpedia.org/page/Calendar> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/group12/resources/Calendar/10491006
+<http://www.semanticweb.org/group12/resources/Calendar/10491006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/10591006
+<http://www.semanticweb.org/group12/resources/Calendar/10591006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/108171
+<http://www.semanticweb.org/group12/resources/Calendar/108171> rdf:type owl:NamedIndividual ,
+                                                                        <http://dbpedia.org/page/Calendar> ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/10992006
+<http://www.semanticweb.org/group12/resources/Calendar/10992006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/11092006
+<http://www.semanticweb.org/group12/resources/Calendar/11092006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/1118828
+<http://www.semanticweb.org/group12/resources/Calendar/1118828> rdf:type owl:NamedIndividual ,
+                                                                         <http://dbpedia.org/page/Calendar> ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/11192006
+<http://www.semanticweb.org/group12/resources/Calendar/11192006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/11292006
+<http://www.semanticweb.org/group12/resources/Calendar/11292006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/1168828
+<http://www.semanticweb.org/group12/resources/Calendar/1168828> rdf:type owl:NamedIndividual ,
+                                                                         <http://dbpedia.org/page/Calendar> ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/118171
+<http://www.semanticweb.org/group12/resources/Calendar/118171> rdf:type owl:NamedIndividual ,
+                                                                        <http://dbpedia.org/page/Calendar> ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/1218828
+<http://www.semanticweb.org/group12/resources/Calendar/1218828> rdf:type owl:NamedIndividual ,
+                                                                         <http://dbpedia.org/page/Calendar> ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/1238828
+<http://www.semanticweb.org/group12/resources/Calendar/1238828> rdf:type owl:NamedIndividual ,
+                                                                         <http://dbpedia.org/page/Calendar> ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/1248828
+<http://www.semanticweb.org/group12/resources/Calendar/1248828> rdf:type owl:NamedIndividual ,
+                                                                         <http://dbpedia.org/page/Calendar> ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/12492006
+<http://www.semanticweb.org/group12/resources/Calendar/12492006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/12592006
+<http://www.semanticweb.org/group12/resources/Calendar/12592006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/128171
+<http://www.semanticweb.org/group12/resources/Calendar/128171> rdf:type owl:NamedIndividual ,
+                                                                        <http://dbpedia.org/page/Calendar> ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/138171
+<http://www.semanticweb.org/group12/resources/Calendar/138171> rdf:type owl:NamedIndividual ,
+                                                                        <http://dbpedia.org/page/Calendar> ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/148171
+<http://www.semanticweb.org/group12/resources/Calendar/148171> rdf:type owl:NamedIndividual ,
+                                                                        <http://dbpedia.org/page/Calendar> ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/158171
+<http://www.semanticweb.org/group12/resources/Calendar/158171> rdf:type owl:NamedIndividual ,
+                                                                        <http://dbpedia.org/page/Calendar> ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateFrom> "Fri May 26 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "false"^^xsd:boolean ;
+                                                               <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/18171
+<http://www.semanticweb.org/group12/resources/Calendar/18171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/28171
+<http://www.semanticweb.org/group12/resources/Calendar/28171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/38171
+<http://www.semanticweb.org/group12/resources/Calendar/38171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/48171
+<http://www.semanticweb.org/group12/resources/Calendar/48171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/58171
+<http://www.semanticweb.org/group12/resources/Calendar/58171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/68171
+<http://www.semanticweb.org/group12/resources/Calendar/68171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/70192006
+<http://www.semanticweb.org/group12/resources/Calendar/70192006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/70491006
+<http://www.semanticweb.org/group12/resources/Calendar/70491006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/70591006
+<http://www.semanticweb.org/group12/resources/Calendar/70591006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/70992006
+<http://www.semanticweb.org/group12/resources/Calendar/70992006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/71192006
+<http://www.semanticweb.org/group12/resources/Calendar/71192006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/71292006
+<http://www.semanticweb.org/group12/resources/Calendar/71292006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/71692006
+<http://www.semanticweb.org/group12/resources/Calendar/71692006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/7693006
+<http://www.semanticweb.org/group12/resources/Calendar/7693006> rdf:type owl:NamedIndividual ,
+                                                                         <http://dbpedia.org/page/Calendar> ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateFrom> "Sun May 28 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateTo> "Mon Jun 18 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/7793006
+<http://www.semanticweb.org/group12/resources/Calendar/7793006> rdf:type owl:NamedIndividual ,
+                                                                         <http://dbpedia.org/page/Calendar> ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateFrom> "Sun May 28 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#dateTo> "Mon Jun 18 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "true"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "false"^^xsd:boolean ;
+                                                                <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "false"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/78171
+<http://www.semanticweb.org/group12/resources/Calendar/78171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/80491006
+<http://www.semanticweb.org/group12/resources/Calendar/80491006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/80591006
+<http://www.semanticweb.org/group12/resources/Calendar/80591006> rdf:type owl:NamedIndividual ,
+                                                                          <http://dbpedia.org/page/Calendar> ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#dateTo> "Fri Jun 22 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                                 <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/88171
+<http://www.semanticweb.org/group12/resources/Calendar/88171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/group12/resources/Calendar/98171
+<http://www.semanticweb.org/group12/resources/Calendar/98171> rdf:type owl:NamedIndividual ,
+                                                                       <http://dbpedia.org/page/Calendar> ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateFrom> "Wed May 24 00:00:00 CEST 2017"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#dateTo> "Sat Jun 23 00:00:00 CEST 2018"^^xsd:dateTime ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceFriday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceMonday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSaturday> "false"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceSunday> "false"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceThursday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceTuesday> "true"^^xsd:boolean ;
+                                                              <http://www.semanticweb.org/group12/ontology#hasServiceWednesday> "true"^^xsd:boolean .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

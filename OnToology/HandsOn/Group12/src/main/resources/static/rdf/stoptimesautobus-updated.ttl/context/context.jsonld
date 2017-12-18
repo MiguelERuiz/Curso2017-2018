@@ -1,0 +1,19 @@
+{
+  "@context" : {
+    "hasTimeTable" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#hasTimeTable"
+    },
+    "stopID" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#stopID"
+    },
+    "stopSequence" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#stopSequence"
+    },
+    "arrivalTime" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#arrivalTime"
+    },
+    "Timetable" : {
+      "@id" : "http://www.semanticweb.org/group12/ontology#Timetable"
+    }
+  }
+}
